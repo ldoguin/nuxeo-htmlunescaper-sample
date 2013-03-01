@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Nuxeo
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Version: 5.7-I20130107_0115
+Bundle-Name: nuxeo-htmlunescaper-sample
+Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.sample.HTMLUnescaperLis
+ tener.xml
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: nuxeo-htmlunescaper-sample
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

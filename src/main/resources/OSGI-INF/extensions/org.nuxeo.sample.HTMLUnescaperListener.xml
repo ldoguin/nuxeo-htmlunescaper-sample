@@ -1,0 +1,13 @@
+<component name="org.nuxeo.sample.listener.contrib.htmlUnescaperListener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent"
+    point="listener">
+
+    <listener name="htmlunescaperlistener" async="false" postCommit="false"
+      class="org.nuxeo.sample.HTMLUnescaperListener" order="-5">
+      <event>aboutToCreate</event>
+      <event>beforeDocumentModification </event>
+    </listener>
+  </extension>
+
+</component>
